@@ -62,10 +62,10 @@ const Tempapp=()=>{
                 style={{width:200,height:200}}
                 />
                </div>
-               {temp ?<h1>{temp}*K</h1>:null}
-               <h4 className="my-4"><span>Min:{min}*K</span>
+               {temp ?<h1>{temp}°K</h1>:null}
+               <h4 className="my-4"><span>Min:{min}°K</span>
                <span className="mx-3"> | </span>
-               <span>Max:{max}*K</span>
+               <span>Max:{max}°K</span>
                </h4>
                <h1>{description}</h1>
                <h4 className="my-4">Date:{new Date().toLocaleDateString()}</h4>
